@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +7,7 @@
 }
 
 #logo {
-  height: 100%;
+  
   width: 10vw;
 }
 
@@ -14,20 +15,16 @@
 
 header {
   border-bottom: 1px solid #7e6c47;
+  overflow: hidden;
+  height: 10vw;
+  background-color: black;
   .top-nav {
-    background-color: black;
 
     ul {
-      display: flex;
-      flex-wrap: wrap;
-      height: 10vw;
-      min-height: 18vh;
-      justify-content: space-around;
 
       li {
         list-style-type: none;
         padding-top: 5em;
-        height: 100%;
         a {
           text-decoration: none;
           color: #b9b7a7;
@@ -50,8 +47,7 @@ header {
 section.find-out-section {
   background-color: black;
   div.main-pic {
-    display: flex;
-    justify-content: space-between;
+  
     img.profile {
       width: 35vw;
       height: 40vw;
@@ -87,16 +83,10 @@ section.find-out-section {
   }
 }
 
-section.wrapper-section {
-}
 
-.mb-2r {
-  margin-bottom: 2rem;
-}
 
-.mt-2r {
-  margin-top: 2rem;
-}
+
+
 
 @keyframes slide-in-left {
   from {
